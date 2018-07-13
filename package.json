@@ -1,0 +1,36 @@
+{
+  "name": "vue-with-root",
+  "version": "1.0.5",
+  "description": "vuejs component to allow unwrapping of element parent",
+  "main": "./dist/vue-with-root.min.js",
+  "global": "VWithRoot",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./rollup.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-nk/vue-with-root.git"
+  },
+  "keywords": [
+    "vuejs",
+    "component",
+    "with-root"
+  ],
+  "author": "Julien Barbay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y-nk/vue-with-root/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  },
+  "files": [
+    "*.md", "**/*.js"
+  ],
+  "homepage": "https://github.com/y-nk/vue-with-root#readme",
+  "devDependencies": {
+    "rollup": "^0.60.4",
+    "rollup-plugin-minify-es": "^1.1.1"
+  }
+}
