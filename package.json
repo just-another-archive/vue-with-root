@@ -1,6 +1,6 @@
 {
   "name": "vue-with-root",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "vuejs component to allow unwrapping of element parent",
   "main": "./dist/vue-with-root.min.js",
   "global": "VWithRoot",

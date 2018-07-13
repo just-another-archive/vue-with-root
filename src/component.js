@@ -9,12 +9,12 @@ export default {
   },
 
   render(h, context) {
-    const children = (context.children || [{ children: [] }])
+    const firstchild = context.children
       .filter(vnode => !!vnode.tag)
-      .slice(0, 1)
+      .pop()
 
     return !context.props.unwrap
-         ? children[0]
-         : children[0].children.filter(vnode => !!vnode.tag)
+         ? firstchild
+         : firstchild.children.filter(vnode => !!vnode.tag).pop()
   }
 }
